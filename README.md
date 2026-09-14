@@ -1,4 +1,4 @@
-# Fast Label-Filtering Approximate Nearest Neighbor Search via Progressive Label Set Stratification (LSSG)
+# [SIGMOD '27] Fast Label-Filtering Approximate Nearest Neighbor Search via Progressive Label Set Stratification [The benchmarking repository].
 
 LSSG is a multi-tier proximity graph for label-filtering approximate nearest neighbor search (LFANNS). It unifies the three canonical label filters — **equality**, **containment**, and **overlap** — in a single index by interpreting label set relations through label set distance (Jaccard distance). Edges are stratified into tiers with nested similarity bounds (`(0,1] ⊃ (0, 0.67] ⊃ (0, 0.33] ⊃ (0,0]`); the bottom tier is label-agnostic for global navigability, while upper tiers connect increasingly similar label sets and preserve equality exactly at the top tier. Search performs tier-ordered in-filtering beam search, escalating to stricter tiers to escape local minima in selective regions.
 
