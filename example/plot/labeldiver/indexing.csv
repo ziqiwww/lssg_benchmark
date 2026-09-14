@@ -1,0 +1,9 @@
+db,method,time,size
+laion,poindex,181,271
+laion,poindex_wo,367,277
+laion,poindex_minhash,162,267
+laion,poindex_minhash_wo,241,300
+ytb_audio,poindex,946,1069
+ytb_audio,poindex_wo,1212,1113
+ytb_audio,poindex_minhash,751,1065
+ytb_audio,poindex_minhash_wo,816,1272

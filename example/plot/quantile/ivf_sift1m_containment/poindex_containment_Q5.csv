@@ -1,0 +1,59 @@
+Loaded fvecs: 2000 vectors of dimension 128 from ./quantile_partitions/sift1m_containment/sift1m_containment_Q5_query.fvecs
+Loaded label sets: 2000
+Loaded label sets: 1000000
+Loaded fvecs: 1000000 vectors of dimension 128 from /root/work/data/vecs/sift1m/sift_base.fvecs
+Rebuilding two-tier inverted index for 2385 labelsets...
+Found 12 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 12 labels (freq >= 891)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 3.39746e-06 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 512
+Bits per hash:  2 bits
+Signature size: 128 bytes per labelset
+LSH bands:      64 bands × 8 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    73.2422 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 2000
+Example: first query has 10
+726420,813236,434885,247880,527448,630571,306188,144865,69194,66771,
+ef,recall,qps,dist_comp,hops
+1700,0.9995,171.857,20844.7,1701.97
+1400,0.9994,206.637,17727.1,1402.07
+1100,0.99905,261.606,14434.9,1102.26
+1000,0.999,286.387,13293.2,1002.3
+900,0.9986,318.093,12126.9,902.407
+800,0.9985,355.5,10934.3,802.504
+700,0.99805,406.03,9714.32,702.578
+600,0.9975,472.693,8464.9,602.722
+500,0.9961,565.344,7182.57,502.88
+400,0.9944,706.453,5864.78,403.123
+300,0.9903,933.656,4504.99,303.367
+250,0.9862,1110.51,3808.88,253.56
+200,0.9802,1392,3101.33,203.798
+180,0.9766,1539.66,2814.89,183.929
+160,0.97225,1710.79,2526.77,164.109
+140,0.96545,1959.63,2237.05,144.32
+120,0.95665,2270.36,1944.54,124.516
+100,0.9441,2694.89,1650.81,104.816
+90,0.93555,2972.96,1503.9,95.0275
+80,0.92505,3300.43,1356.65,85.26
+70,0.91245,3692.3,1209.92,75.578
+60,0.8951,4196.84,1063.01,65.937
+55,0.8853,4609.61,989.072,61.0995
+50,0.8726,5005.39,914.351,56.235
+45,0.8605,5449.26,842.512,51.568
+40,0.8431,6008.51,767.9,46.741
+35,0.8246,6680.97,694.85,42.02
+30,0.8106,7147.35,649.934,39.122
+25,0.8106,7121.14,649.934,39.122
+20,0.8106,6963.88,649.934,39.122
+15,0.8106,7154.76,649.934,39.122
+10,0.8106,7157.81,649.934,39.122

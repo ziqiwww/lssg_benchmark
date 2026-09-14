@@ -1,0 +1,59 @@
+Loaded fvecs: 200 vectors of dimension 128 from ./quantile_partitions/ytb_audio_equality/ytb_audio_equality_Q1_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 5000000
+Loaded fvecs: 5000000 vectors of dimension 128 from /root/work/data/filterbenchmark/ytb_audio/ytb_audio_base.fvecs
+Rebuilding two-tier inverted index for 498335 labelsets...
+Found 3862 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 1683 labels (freq >= 202)
+  Tier 2 (sparse): 2179 labels
+  Tier 1 memory: 0.0976437 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 512
+Bits per hash:  2 bits
+Signature size: 128 bytes per labelset
+LSH bands:      64 bands × 8 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    73.2422 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 200
+Example: first query has 10
+3257900,3522644,741653,2926524,4186091,756178,3479313,517868,3482246,2723465,
+ef,recall,qps,dist_comp,hops
+1700,0.9965,29696,42.4,42.4
+1400,0.9965,47496.6,42.4,42.4
+1100,0.9965,67031.3,42.4,42.4
+1000,0.9965,74237,42.4,42.4
+900,0.9965,82767.4,42.4,42.4
+800,0.9965,77253.4,42.4,42.4
+700,0.9965,77971.9,42.4,42.4
+600,0.9965,78322.5,42.4,42.4
+500,0.9965,78527,42.4,42.4
+400,0.9965,82518.7,42.4,42.4
+300,0.9965,78372.8,42.4,42.4
+250,0.9965,78983.4,42.4,42.4
+200,0.9965,78854.6,42.4,42.4
+180,0.9965,83745.8,42.4,42.4
+160,0.9965,79211.7,42.4,42.4
+140,0.9965,78834.1,42.4,42.4
+120,0.9965,79261,42.4,42.4
+100,0.9965,78936.3,42.39,42.24
+90,0.9965,85688.6,42.38,41.685
+80,0.9965,79865.5,42.35,40.62
+70,0.9965,80989.5,42.275,39.095
+60,0.9965,82843.7,42.135,36.975
+55,0.9965,83874.5,42.01,35.525
+50,0.9965,92007.8,41.82,33.85
+45,0.9965,87144.2,41.65,32.06
+40,0.9965,89731.9,41.425,30.05
+35,0.9965,91825.9,41.1,27.7
+30,0.9965,104982,40.68,25.14
+25,0.996,100691,40.11,22.055
+20,0.9955,106960,39.325,18.615
+15,0.9945,115155,38.23,14.81
+10,0.9905,128056,36.455,10.48

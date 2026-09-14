@@ -1,0 +1,65 @@
+Loaded fvecs: 200 vectors of dimension 384 from ./quantile_partitions/wikipedia-5m_equality/wikipedia-5m_equality_Q1_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 5000000
+Loaded fvecs: 5000000 vectors of dimension 384 from /root/work/data/vecs/wikipedia/wikipedia_5m_base.fvecs
+Rebuilding two-tier inverted index for 184298 labelsets...
+Found 237417 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 4551 labels (freq >= 25)
+  Tier 2 (sparse): 232866 labels
+  Tier 1 memory: 0.0976539 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 64
+Bits per hash:  4 bits
+Signature size: 32 bytes per labelset
+LSH bands:      16 bands × 4 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    18.3105 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 200
+Example: first query has 10
+4702102,4702101,4702105,4702107,4702103,4702104,4702099,4702100,4702106,4702108,
+ef,recall,qps,dist_comp,hops
+20000,1,77888.3,11.98,11.98
+15000,1,92584.1,11.98,11.98
+10000,1,114759,11.98,11.98
+5000,1,117217,11.98,11.98
+2500,1,133257,11.98,11.98
+2000,1,125338,11.98,11.98
+1700,1,127913,11.98,11.98
+1400,1,126996,11.98,11.98
+1100,1,125380,11.98,11.98
+1000,1,132394,11.98,11.98
+900,1,126689,11.98,11.98
+800,1,119878,11.98,11.98
+700,1,122485,11.98,11.98
+600,1,139702,11.98,11.98
+500,1,120991,11.98,11.98
+400,1,126568,11.98,11.98
+300,1,121197,11.98,11.98
+250,1,124500,11.98,11.98
+200,1,134611,11.98,11.98
+180,1,127446,11.98,11.98
+160,1,130424,11.98,11.98
+140,1,130502,11.98,11.98
+120,1,129020,11.98,11.98
+100,1,37139.3,11.98,11.98
+90,1,74471.5,11.98,11.98
+80,1,123838,11.98,11.98
+70,1,120664,11.98,11.98
+60,1,127885,11.98,11.98
+55,1,119600,11.98,11.98
+50,1,122280,11.98,11.98
+45,1,119753,11.98,11.98
+40,1,125783,11.98,11.98
+35,1,142218,11.98,11.98
+30,1,129729,11.98,11.98
+25,1,132288,11.98,11.98
+20,1,118940,11.98,11.98
+15,1,129397,11.98,11.98
+10,1,136398,11.98,11.98

@@ -1,0 +1,49 @@
+Loaded fvecs: 200 vectors of dimension 768 from ./quantile_partitions/tripclick_containment/tripclick_containment_Q1_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 1055976
+Loaded fvecs: 1055976 vectors of dimension 768 from /root/work/data/filterbenchmark/tripclick/tripclick_base.fvecs
+Rebuilding two-tier inverted index for 7734 labelsets...
+Found 29 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 29 labels (freq >= 256)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 2.61441e-05 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+Loaded ground truth: 200
+Example: first query has 10
+395500,106676,58967,612795,786183,129617,164611,20450,42089,117001,
+ef,recall,qps,dist_comp,hops
+1700,1,20168.1,23.375,23.375
+1400,1,24730.2,23.375,23.375
+1100,1,25446.8,23.375,23.375
+1000,1,25749.5,23.375,23.375
+900,1,26069.2,23.375,23.375
+800,1,25915.9,23.375,23.375
+700,1,26033.2,23.375,23.375
+600,1,26145,23.375,23.375
+500,1,26040.6,23.375,23.375
+400,1,26172.1,23.375,23.375
+300,1,26104.7,23.375,23.375
+250,1,25937.1,23.375,23.375
+200,1,26057.4,23.375,23.375
+180,1,26496.3,23.375,23.375
+160,1,26246.8,23.375,23.375
+140,1,26236.3,23.375,23.375
+120,1,26073.7,23.375,23.375
+100,1,26200.7,23.375,23.375
+90,1,26447.6,23.375,23.375
+80,1,26546.5,23.375,23.375
+70,1,26348.9,23.375,23.375
+60,1,26112.7,23.375,23.375
+55,1,26304.4,23.375,23.375
+50,1,26537,23.375,23.375
+45,1,26302.5,23.375,23.375
+40,1,26321.6,23.375,23.375
+35,1,26273.1,23.375,23.375
+30,1,26837.5,23.375,22.975
+25,1,27780.5,23.365,21.515
+20,0.999,30682.5,23.315,18.685
+15,0.9975,34069.8,23.185,15.865
+10,0.997,36493.3,23.125,14.43

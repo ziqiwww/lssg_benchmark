@@ -1,0 +1,17 @@
+Dataset,IndexType,BuildTime_s,IndexSize_MB
+GIST1M,HNSW (M=32 efConstruction=200),148.7,134
+GIST1M,IVF Flat (nlist=10000),9106.6,41
+LAION1M,HNSW (M=32 efConstruction=200),71.0,136
+LAION1M,IVF Flat (nlist=10000),4880.2,26
+YTB-Audio,HNSW (M=32 efConstruction=200),192.5,672
+YTB-Audio,IVF Flat (nlist=10000),3507.0,27
+YFCC,HNSW (M=32 efConstruction=200),42.2,135
+YFCC,IVF Flat (nlist=10000),1850.6,12
+YTB-Video,HNSW (M=32 efConstruction=200),74.2,672
+YTB-Video,IVF Flat (nlist=10000),9993.9,46.8
+SIFT1M,HNSW (M=32 efConstruction=200),29.5,137.6
+SIFT1M,IVF Flat (nlist=10000),1546.1,12.6
+TripClick,HNSW (M=32 efConstruction=200),129.1,145.3
+TripClick,IVF Flat (nlist=10000),8043.1,37.4
+Wikipedia-5m,HNSW (M=32 efConstruction=200),400.1,688.0
+Wikipedia-5m,IVF Flat (nlist=10000),10920.3,52.9

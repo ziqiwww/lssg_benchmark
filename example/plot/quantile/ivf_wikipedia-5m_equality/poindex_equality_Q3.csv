@@ -1,0 +1,65 @@
+Loaded fvecs: 200 vectors of dimension 384 from ./quantile_partitions/wikipedia-5m_equality/wikipedia-5m_equality_Q3_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 5000000
+Loaded fvecs: 5000000 vectors of dimension 384 from /root/work/data/vecs/wikipedia/wikipedia_5m_base.fvecs
+Rebuilding two-tier inverted index for 184298 labelsets...
+Found 237417 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 4551 labels (freq >= 25)
+  Tier 2 (sparse): 232866 labels
+  Tier 1 memory: 0.0976539 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 64
+Bits per hash:  4 bits
+Signature size: 32 bytes per labelset
+LSH bands:      16 bands × 4 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    18.3105 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 200
+Example: first query has 10
+4719465,4719474,4719472,4719479,4719473,4719463,4719477,4719464,4719481,4719480,
+ef,recall,qps,dist_comp,hops
+20000,1,58287.1,24.135,24.135
+15000,1,66156.6,24.135,24.135
+10000,1,75453.1,24.135,24.135
+5000,1,84424.4,24.135,24.135
+2500,1,97329.8,24.135,24.135
+2000,1,89585.7,24.135,24.135
+1700,1,85220.7,24.135,24.135
+1400,1,89383.1,24.135,24.135
+1100,1,85772.5,24.135,24.135
+1000,1,102716,24.135,24.135
+900,1,95258.2,24.135,24.135
+800,1,93391.4,24.135,24.135
+700,1,92743.5,24.135,24.135
+600,1,99873.7,24.135,24.135
+500,1,91831.6,24.135,24.135
+400,1,91485.4,24.135,24.135
+300,1,94297.6,24.135,24.135
+250,1,92438.2,24.135,24.135
+200,1,101252,24.135,24.135
+180,1,92351.7,24.135,24.135
+160,1,90566,24.135,24.135
+140,1,95313.2,24.135,24.135
+120,1,91608.7,24.135,24.135
+100,1,99554.8,24.135,24.135
+90,1,88243.1,24.135,24.135
+80,1,92784.5,24.135,24.135
+70,1,91007.9,24.135,24.135
+60,1,103072,24.135,24.135
+55,1,89466.2,24.135,24.135
+50,1,91455.4,24.135,24.135
+45,1,90946.9,24.135,24.135
+40,1,94067.2,24.135,24.135
+35,1,99674.6,24.135,24.135
+30,1,92366.3,24.135,24.135
+25,0.9995,92575.1,24.13,23.55
+20,0.995,93963.9,24.015,20.05
+15,0.9855,92438.3,23.685,16.075
+10,0.9855,106079,23.685,16.075

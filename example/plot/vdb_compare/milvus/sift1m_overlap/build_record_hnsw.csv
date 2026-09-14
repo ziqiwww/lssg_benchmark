@@ -1,0 +1,2 @@
+dataset,index_type,n_base,dim,M_or_nlist,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_struct_mb,total_mb
+bench_hnsw_sift1m,HNSW,1000000,128,32,200,48.6,38.0,86.6,488.3,488.3,976.6

@@ -1,0 +1,2 @@
+dataset,index_type,n_base,dim,M_or_nlist,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_struct_mb,total_mb
+bench_ivf_tripclick,IVF,1055976,768,1024,,194.6,192.0,386.6,3093.7,11.1,3104.7

@@ -1,0 +1,8 @@
+add_executable(gengt gen_ground_truth.cc)
+add_executable(build_po_label build_po_label.cc)
+add_executable(search_po_label search_po_label.cc)
+add_executable(gen_label_gt gen_label_gt.cc)
+add_executable(test_oracle_hnsw test_oracle_hnsw.cc)
+add_executable(partition_by_specificity partition_by_specificity.cc)
+add_executable(partition_by_quantile partition_by_quantile.cc)
+add_executable(filter_query_by_passcount filter_query_by_passcount.cc)

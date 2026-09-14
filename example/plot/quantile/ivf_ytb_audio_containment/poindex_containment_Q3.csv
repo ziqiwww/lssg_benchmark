@@ -1,0 +1,59 @@
+Loaded fvecs: 200 vectors of dimension 128 from ./quantile_partitions/ytb_audio_containment/ytb_audio_containment_Q3_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 5000000
+Loaded fvecs: 5000000 vectors of dimension 128 from /root/work/data/filterbenchmark/ytb_audio/ytb_audio_base.fvecs
+Rebuilding two-tier inverted index for 498335 labelsets...
+Found 3862 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 1683 labels (freq >= 202)
+  Tier 2 (sparse): 2179 labels
+  Tier 1 memory: 0.0976437 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 512
+Bits per hash:  2 bits
+Signature size: 128 bytes per labelset
+LSH bands:      64 bands × 8 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    73.2422 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 200
+Example: first query has 10
+1337822,2001653,3263288,3473882,1058252,1666584,2551016,4453435,3669478,3261330,
+ef,recall,qps,dist_comp,hops
+1700,0.979,222.314,4443.36,1700.06
+1400,0.977,264.603,4218.02,1400.14
+1100,0.9755,327.614,3917.86,1100.12
+1000,0.973,350.692,3793.78,1000.18
+900,0.9735,392.366,3655.34,900.125
+800,0.9725,436.74,3496.32,800.105
+700,0.969,491.332,3315.12,700.13
+600,0.967,562.296,3105.41,600.37
+500,0.9615,660.577,2860.44,500.435
+400,0.955,803.263,2560.47,400.39
+300,0.945,1032.39,2181.05,300.585
+250,0.9365,1203.3,1954.29,250.785
+200,0.928,1421.33,1689.82,200.91
+180,0.92,1575.84,1571.97,180.985
+160,0.914,1747.86,1445.99,161.19
+140,0.9055,1964.43,1310.37,141.28
+120,0.898,2234.69,1163.73,121.445
+100,0.8865,2596.3,1004.64,101.66
+90,0.8775,2840.91,923.63,91.845
+80,0.8715,3118.68,838.895,82.165
+70,0.8615,3465.98,752.215,72.39
+60,0.8475,3905.45,663.11,62.64
+55,0.8435,4175.04,621.715,58.155
+50,0.833,4490.67,576.085,53.265
+45,0.8195,4831.09,531.59,48.595
+40,0.8045,5286.3,486.515,43.735
+35,0.7885,5770.9,440.665,39.07
+30,0.775,6212.6,413.335,36.18
+25,0.775,6133.39,413.335,36.18
+20,0.775,6171.17,413.335,36.18
+15,0.775,6162.96,413.335,36.18
+10,0.775,6178.62,413.335,36.18

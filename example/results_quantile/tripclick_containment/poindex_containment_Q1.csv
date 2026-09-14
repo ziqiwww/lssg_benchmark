@@ -1,0 +1,13 @@
+Loaded fvecs: 200 vectors of dimension 768 from ./quantile_partitions/tripclick_containment/tripclick_containment_Q1_query.fvecs
+Loaded label sets: 200
+Loaded label sets: 1055976
+Loaded fvecs: 1055976 vectors of dimension 768 from /root/work/data/filterbenchmark/tripclick/tripclick_base.fvecs
+Rebuilding two-tier inverted index for 7734 labelsets...
+Found 29 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 29 labels (freq >= 256)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 2.61441e-05 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!

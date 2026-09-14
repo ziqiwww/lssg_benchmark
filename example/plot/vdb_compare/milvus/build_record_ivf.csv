@@ -1,0 +1,9 @@
+dataset,index_type,n_base,dim,M_or_nlist,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_struct_mb,total_mb
+bench_ivf_gist1m,IVF_FLAT,1000000,960,10000,,246.0,192.2,438.2,3662.1,11.4,3673.5
+bench_ivf_LAION1M,IVF_FLAT,1000448,512,10000,,137.4,131.8,269.2,1954.0,9.6,1963.6
+bench_ivf_yfcc,IVF_FLAT,1000000,192,10000,,66.8,36.6,103.4,732.4,8.4,740.8
+bench_ivf_ytb_audio,IVF,5000000,128,10000,,263.7,182.3,446.0,2441.4,38.6,2480.1
+bench_ivf_ytb_video,IVF_FLAT,1000000,10000,1024,,248.4,192.1,440.5,3906.2,11.6,3917.9
+bench_ivf_sift1m,IVF_FLAT,1000000,128,10000,,48.9,35.4,84.3,488.3,8.1,496.4
+bench_ivf_tripclick,IVF_FLAT,1055976,768,10000,,194.6,192.0,386.6,3093.7,11.1,3104.7
+bench_ivf_wikipedia_5m,IVF_FLAT,5000000,384,10000,,523.7,444.4,968.1,7324.2,39.6,7363.9

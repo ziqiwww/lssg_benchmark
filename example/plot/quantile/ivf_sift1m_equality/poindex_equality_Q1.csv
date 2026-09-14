@@ -1,0 +1,59 @@
+Loaded fvecs: 2000 vectors of dimension 128 from ./quantile_partitions/sift1m_equality/sift1m_equality_Q1_query.fvecs
+Loaded label sets: 2000
+Loaded label sets: 1000000
+Loaded fvecs: 1000000 vectors of dimension 128 from /root/work/data/vecs/sift1m/sift_base.fvecs
+Rebuilding two-tier inverted index for 2385 labelsets...
+Found 12 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 12 labels (freq >= 891)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 3.39746e-06 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 512
+Bits per hash:  2 bits
+Signature size: 128 bytes per labelset
+LSH bands:      64 bands × 8 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    73.2422 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 2000
+Example: first query has 10
+486127,993345,692791,804732,871325,295050,734859,3748,662984,268072,
+ef,recall,qps,dist_comp,hops
+1700,1,4528.6,732.961,726.066
+1400,1,4693.61,730.629,693.679
+1100,1,5077.66,711.548,631.427
+1000,1,5310.6,692.319,602.014
+900,1,5599.25,662.654,568.145
+800,1,5948.91,629.312,529.932
+700,1,6413.86,592.855,486.519
+600,1,7009.22,552.771,437.513
+500,1,7775.83,509.507,383.322
+400,1,8861.27,464.389,322.695
+300,1,10474.1,416.176,255.127
+250,1,11736.4,388.66,218.214
+200,1,13444.1,356.76,179.555
+180,1,14309,342.339,163.559
+160,1,15352,326.699,147.162
+140,1,16640.3,309.618,130.395
+120,1,18178.8,290.471,113.33
+100,1,20230.4,268.752,95.8745
+90,1,21640.3,256.627,86.982
+80,0.9999,23064.2,243.283,77.941
+70,0.99975,24995.8,228.679,68.797
+60,0.99945,27434,212.649,59.5605
+55,0.99935,28951.4,203.812,54.9135
+50,0.9989,30303.2,194.46,50.222
+45,0.99835,32439.1,184.453,45.52
+40,0.9978,34658.4,173.858,40.815
+35,0.99725,37412.9,162.492,36.0865
+30,0.9951,40331.6,150.064,31.3475
+25,0.99175,44900.6,136.51,26.623
+20,0.98455,50655.9,121.498,21.8885
+15,0.9721,58888.7,105.011,17.226
+10,0.94015,71661.6,86.652,12.6685

@@ -1,0 +1,13 @@
+Loaded fvecs: 2000 vectors of dimension 128 from ./quantile_partitions/sift1m_containment/sift1m_containment_Q1_query.fvecs
+Loaded label sets: 2000
+Loaded label sets: 1000000
+Loaded fvecs: 1000000 vectors of dimension 128 from /root/work/data/vecs/sift1m/sift_base.fvecs
+Rebuilding two-tier inverted index for 2385 labelsets...
+Found 12 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 12 labels (freq >= 891)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 3.39746e-06 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!

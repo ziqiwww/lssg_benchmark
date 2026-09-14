@@ -1,0 +1,9 @@
+table,index_type,n_base,dim,M_or_lists,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_size_mb,total_mb
+bench_ivf_gist1m,IVF,1000000,960,10000,,512.0,119.4,631.4,3662.1,304.0,3966.1
+bench_ivf_yfcc,IVF,1000000,192,10000,,111.1,68.7,179.7,732.4,57.6,790.0
+bench_ivf_ytb_audio,IVF,5000000,128,10000,,385.0,61.7,446.7,2441.4,166.9,2608.3
+bench_ivf_laion1m,IVF,1000448,512,1000,,290.7,65.9,356.5,1954.0,656.5,2610.5
+bench_ivf_ytb_video,IVF,1000000,1024,10000,,590.7,159.7,750.3,3906.2,3914.1,7820.3
+bench_ivf_sift1m,IVF,1000000,128,10000,,69.2,20.5,89.7,488.3,36.7,525.0
+bench_ivf_tripclick,IVF,1055976,768,10000,,477.8,105.3,583.1,3093.7,1037.1,4130.8
+bench_ivf_wikipedia_5m,IVF,5000000,384,10000,,1083.9,153.3,1237.2,7324.2,493.0,7817.2

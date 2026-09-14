@@ -1,0 +1,40 @@
+ef,recall,qps,distance_computations_per_query
+/root/work/data/filterbenchmark/tripclick/tripclick_base.bin
+/root/work/lssg/example/quantile_partitions/tripclick_containment/tripclick_containment_Q2_query.bin
+Ground truth loaded from /root/work/others/Unified-Navigating-Graph/data/gt_quantile/tripclick_containment/Q2_gt_29_labels_zipf.bin
+Base Label Load Finished
+Query Label Load Finished
+All Points:: 2475980
+All Points:: 2347498
+1700,1,28571.4,110.38
+1400,1,33333.3,110.38
+1100,1,33333.3,110.38
+1000,1,33333.3,110.38
+900,1,33333.3,110.38
+800,1,33333.3,110.38
+700,1,33333.3,110.38
+600,1,33333.3,110.38
+500,1,33333.3,110.38
+400,1,33333.3,110.38
+300,1,33333.3,110.38
+250,1,33333.3,110.38
+200,1,33333.3,110.38
+180,1,33333.3,110.38
+160,1,33333.3,110.38
+140,1,33333.3,110.38
+120,1,33333.3,110.38
+100,1,33333.3,110.38
+90,1,33333.3,110.38
+80,1,33333.3,110.38
+70,1,33333.3,110.38
+60,1,33333.3,110.38
+55,1,33333.3,110.38
+50,1,33333.3,110.38
+45,1,33333.3,110.38
+40,1,33333.3,110.38
+35,1,33333.3,110.38
+30,1,33333.3,110.38
+25,1,33333.3,110.38
+20,1,33333.3,110.38
+15,1,33333.3,110.38
+10,1,33333.3,110.38

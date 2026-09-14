@@ -1,0 +1,2 @@
+dataset,index_type,n_base,dim,M_or_nlist,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_struct_mb,total_mb
+bench_ivf_yfcc,IVF,1000000,192,1024,,66.8,36.6,103.4,732.4,8.4,740.8

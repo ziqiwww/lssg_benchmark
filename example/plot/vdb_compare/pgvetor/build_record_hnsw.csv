@@ -1,0 +1,9 @@
+table,index_type,n_base,dim,M_or_lists,efConstruction,insert_time_s,index_time_s,total_build_time_s,vec_data_mb,index_size_mb,total_mb
+bench_hnsw_gist1m,HNSW,1000000,960,32,200,528.6,562.9,1091.5,3662.1,4016.3,7678.4
+bench_hnsw_yfcc,HNSW,1000000,192,32,200,112.2,163.5,275.7,732.4,504.8,1237.2
+bench_hnsw_ytb_audio,HNSW,5000000,128,32,200,381.6,754.3,1136.0,2441.4,2452.9,4894.3
+bench_hnsw_laion1m,HNSW,1000448,512,32,200,290.5,253.4,543.9,1954.0,637.8,2591.8
+bench_hnsw_ytb_video,HNSW,1000000,1024,32,200,571.5,556.9,1128.4,3906.2,3905.3,7811.5
+bench_hnsw_sift1m,HNSW,1000000,128,32,200,71.7,166.2,237.9,488.3,478.0,966.3
+bench_hnsw_tripclick,HNSW,1055976,768,32,200,478.6,444.0,922.6,3093.7,1024.2,4117.9
+bench_hnsw_wikipedia_5m,HNSW,5000000,384,32,200,1109.1,1731.9,2841.0,7324.2,2793.4,10117.6

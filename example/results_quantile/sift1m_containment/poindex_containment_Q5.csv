@@ -1,0 +1,37 @@
+Loaded fvecs: 2000 vectors of dimension 128 from ./quantile_partitions/sift1m_containment/sift1m_containment_Q5_query.fvecs
+Loaded label sets: 2000
+Loaded label sets: 1000000
+Loaded fvecs: 1000000 vectors of dimension 128 from /root/work/data/vecs/sift1m/sift_base.fvecs
+Rebuilding two-tier inverted index for 2385 labelsets...
+Found 12 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 12 labels (freq >= 891)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 3.39746e-06 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+
+========== MinHash Configuration ==========
+Hash functions: 512
+Bits per hash:  2 bits
+Signature size: 128 bytes per labelset
+LSH bands:      64 bands × 8 hashes/band
+Bucket space:   2^16 = 65536 buckets per band
+Est. memory:    73.2422 MB for 600K labelsets
+===========================================
+
+Loaded ground truth: 2000
+Example: first query has 10
+726420,813236,434885,247880,527448,630571,306188,144865,69194,66771,
+ef,recall,qps,dist_comp,hops
+1700,0.9995,125.084,20844.7,1701.97
+1400,0.9994,150.589,17727.1,1402.07
+1100,0.99905,192.01,14434.9,1102.26
+1000,0.999,240.006,13293.2,1002.3
+900,0.9986,273.819,12126.9,902.407
+800,0.9985,311.699,10934.3,802.504
+700,0.99805,353.104,9714.32,702.578
+600,0.9975,462.859,8464.9,602.722
+500,0.9961,559.692,7182.57,502.88
+400,0.9944,697.449,5864.78,403.123

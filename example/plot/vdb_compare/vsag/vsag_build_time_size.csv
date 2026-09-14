@@ -1,0 +1,17 @@
+Dataset,IndexType,BuildTime_s,IndexSize_MB
+GIST1M,HGraph (max_degree=32 ef_construction=200),81.935,203
+GIST1M,IVF (buckets=10000),472.70,137
+LAION1M,HGraph (max_degree=32 ef_construction=200),46.068,246
+LAION1M,IVF (buckets=10000),253.17,155
+YTB-Audio,HGraph (max_degree=32 ef_construction=200),163.25,867
+YTB-Audio,IVF (buckets=10000),249.89,236
+YFCC,HGraph (max_degree=32 ef_construction=200),29.433,186
+YFCC,IVF (buckets=10000),119.01,138
+YTB-Video,HGraph (max_degree=32 ef_construction=200),58.699,209.4
+YTB-Video,IVF (buckets=10000),595.3,148.1
+SIFT1M,HGraph (max_degree=32 ef_construction=200),31.2,177.1
+SIFT1M,IVF (buckets=10000),93.6,206.8
+TripClick,HGraph (max_degree=32 ef_construction=200),78.6,232.6
+TripClick,IVF (buckets=10000),350.5,116.8
+Wikipedia-5m,HGraph (max_degree=32 ef_construction=200),311.2,809.9
+Wikipedia-5m,IVF (buckets=10000),457.2,170.3

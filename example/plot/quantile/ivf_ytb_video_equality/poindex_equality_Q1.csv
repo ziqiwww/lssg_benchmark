@@ -1,0 +1,49 @@
+Loaded fvecs: 40 vectors of dimension 1024 from ./quantile_partitions/ytb_video_equality/ytb_video_equality_Q1_query.fvecs
+Loaded label sets: 40
+Loaded label sets: 1000000
+Loaded fvecs: 1000000 vectors of dimension 1024 from /root/work/data/filterbenchmark/ytb_video/ytb_video_base.fvecs
+Rebuilding two-tier inverted index for 160018 labelsets...
+Found 3862 unique labels
+Two-tier index configuration:
+  Tier 1 (dense): 3862 labels (freq >= 2)
+  Tier 2 (sparse): 0 labels
+  Tier 1 memory: 0.0719641 GB
+Building Tier 1 dense bitsets...
+Building Tier 2 sparse index...
+Two-tier index rebuilt successfully!
+Loaded ground truth: 40
+Example: first query has 10
+845318,704787,593641,391221,430327,608190,602235,391320,606700,592601,
+ef,recall,qps,dist_comp,hops
+1700,1,6941.72,188.8,188.8
+1400,1,8156.46,188.8,188.8
+1100,1,8457.09,188.8,188.8
+1000,1,8595.45,188.8,188.8
+900,1,8723.69,188.8,188.8
+800,1,8751.01,188.8,188.8
+700,1,8746.08,188.8,188.8
+600,1,9059.42,188.8,188.8
+500,1,9135.72,188.8,188.8
+400,1,9195.61,188.8,188.8
+300,1,9234.91,188.8,188.8
+250,1,9167.79,188.725,184.6
+200,1,9267.49,188.15,169.45
+180,1,9574.37,187.55,160.4
+160,1,9805.2,186.75,148.2
+140,1,10129.2,185,133.225
+120,1,10478.4,180.675,116.725
+100,1,10997.5,175.35,99.025
+90,1,11665.8,173.775,89.725
+80,1,11680,171.725,80.05
+70,1,12664.3,168.925,70.325
+60,1,13415.8,165.025,60.375
+55,1,13941,162.5,55.4
+50,1,14324.9,159.625,50.4
+45,1,14550.8,157.05,45.425
+40,1,14991.7,153.9,40.5
+35,1,16254.4,151.575,35.5
+30,1,16956.7,148.15,30.55
+25,1,18245.5,143.3,25.6
+20,1,19679,137.45,20.675
+15,1,21476.3,130.275,15.875
+10,0.9925,23843.1,117.325,11.05
